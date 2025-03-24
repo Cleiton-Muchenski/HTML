@@ -19,5 +19,9 @@ TAGS ---------------------------------------------------------------------------
 <a> </a>                 <!-- Uso de links -->
 <a href=""> </a>         <!-- Uso de links porem completo com href para inserior o link -->
 
-<img src="">             <!-- Semelhante o <a> <a/> porem para imagem, ele nao precisa terminar com outra tag
+<img src="">             <!-- Semelhante o <a> <a/> porem para imagem, ele nao precisa terminar com outra tag -->
+
+Style.css ----------------------------------------------------------------------------------------
+
+<link rel="TIPONOMEDEDOCUMENTO" href="NOMEDAPAGINA"> Usamos
 
