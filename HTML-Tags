@@ -2,24 +2,22 @@ FRONTEND DESIGN 17.03.2025 - PROGRAMAÇÃO HTML
 
 XAMPP - Simular comportamento de um servidor
 
-
-
 HTML - CSS - JAVASCRIPT
 
+TAGS -----------------------------------------------------------------------------------------
 
-TAGS
+<html> </html>           <!-- Define todo o codigo da pagina -->
+<head> </head>           <!-- Tudo que e relacionado a config da pagina fica aqui -->
+<title> </title>         <!-- Troca o titulo da pagina apresentado na aba e por ser uma config deve ser posto dentro do head -->
+<body> </body>           <!-- Todo conteudo tipo Texto, Imagem, Links e videos devem ficar dentro do body -->
+<b> </b>                 <!-- Coloca o texto em Bould "Negrito" -->
+<strong> </strong>       <!-- faz um texto mais forte e maior -->
+<p> </p>                 <!-- Paragrafo -->
+<!-- -->                 <!-- Comentario -->
+<br>                     <!-- Break, da um salto de linha -->
 
-<html> </html>
-<head> </head>
-<title> </title>
-<body> </body>
-<b> </b>
-<strong> </strong>
-<p> </p>
-<!-- -->
-<br>
+<a> </a>                 <!-- Uso de links -->
+<a href=""> </a>         <!-- Uso de links porem completo com href para inserior o link -->
 
-<a> </a>
-<a href=""> </a>
+<img src="">             <!-- Semelhante o <a> <a/> porem para imagem, ele nao precisa terminar com outra tag
 
-<img src="">
