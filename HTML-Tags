@@ -23,5 +23,21 @@ TAGS ---------------------------------------------------------------------------
 
 Style.css ----------------------------------------------------------------------------------------
 
-<link rel="TIPONOMEDEDOCUMENTO" href="NOMEDAPAGINA"> Usamos
+<link rel="tipodedoc" href="nomedapgn"> <-- linkamos o style de um arquivo com uma pagina -->
+<div> </div>                            <-- criamos uma divisão que pode ser usada para criar caixas que separam um campo -->
 
+usamos {} para abrir uma caixa de codigo onde tera todas informações e configurações visuais
+(Exemplo).
+
+p{
+font-size: 30px;
+font-Family: 'Arial';
+color: blue;
+}
+---------------------------------------//--------------------
+usamos . para chamar uma classe ou seja caso eu tenha varios <p></p> eu posso adicionar uma classe para que ele seja diferente
+<p class="P1"> </p>
+
+.P1 {
+}
+--------------------------------------//---------------------
