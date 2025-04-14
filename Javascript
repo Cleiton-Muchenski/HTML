@@ -1,0 +1,3 @@
+JavaScript ------------------------------------------------------------------------------------------------------------------------------------
+
+JavaScript - Existiu para manipular o funcionamento de uma pagina WEB
