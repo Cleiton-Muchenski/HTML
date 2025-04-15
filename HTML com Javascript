@@ -12,13 +12,39 @@
     <input id="num1" type="number" placeholder="Digite um Numero">
     <br>
     <input id="num2" type="number" placeholder="Digite o segundo Numero">
+    <br>
     <button onclick="somar()">somar</button>
+    <br>
+    <button onclick="subtrair()">subtrair</button>
+    <br>
+    <button onclick="multiplicar()">multiplicar</button>
+    <br>
+    <button onclick="dividir()">dividir</button>
     <p>resultado <span id="resultado"></span></p>
+    
     <script>
         function somar(){
             let n1 = parseFloat(document.getElementById('num1').value);
             let n2 = parseFloat(document.getElementById('num2').value);
             let resultado = n1 + n2;
+            document.getElementById('resultado').textContent = resultado;
+        }
+        function subtrair(){
+            let n1 = parseFloat(document.getElementById('num1').value);
+            let n2 = parseFloat(document.getElementById('num2').value);
+            let resultado = n1 - n2;
+            document.getElementById('resultado').textContent = resultado;
+        }
+        function multiplicar(){
+            let n1 = parseFloat(document.getElementById('num1').value);
+            let n2 = parseFloat(document.getElementById('num2').value);
+            let resultado = n1 * n2;
+            document.getElementById('resultado').textContent = resultado;
+        }
+        function dividir(){
+            let n1 = parseFloat(document.getElementById('num1').value);
+            let n2 = parseFloat(document.getElementById('num2').value);
+            let resultado = n1 / n2;
             document.getElementById('resultado').textContent = resultado;
         }
     </script>
