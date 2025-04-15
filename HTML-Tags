@@ -20,6 +20,8 @@ TAGS ---------------------------------------------------------------------------
 <a href=""> </a>         <!-- Uso de links porem completo com href para inserior o link -->
 
 <img src="">             <!-- Semelhante o <a> <a/> porem para imagem, ele nao precisa terminar com outra tag -->
+<button> </button>       <! -- Adiciona um botão -->
+<input>                  <! -- Um campo vazio para colocar um valor -->
 
 Style.css ----------------------------------------------------------------------------------------
 
