@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p class="titulo">Soma de Dois Números</p>
+    <input id="num1" type="number" placeholder="Digite um Numero">
+    <br>
+    <input id="num2" type="number" placeholder="Digite o segundo Numero">
+    <button onclick="somar()">somar</button>
+    <p>resultado <span id="resultado"></span></p>
+    <script>
+        function somar(){
+            let n1 = parseFloat(document.getElementById('num1').value);
+            let n2 = parseFloat(document.getElementById('num2').value);
+            let resultado = n1 + n2;
+            document.getElementById('resultado').textContent = resultado;
+        }
+    </script>
+
+</body>
+</html>
