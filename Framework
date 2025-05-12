@@ -7,3 +7,86 @@ Framework ----------------------------------------------------------------------
   trabalho pesado mais abstrato e escondido para as pessoas da área.
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________
+JQuery é uma biblioteca JavaScript leve, Rápida e rica em funcionabilidade, criada para simplificar operações como manipulações de HTML
+
+* Quando usar? ideal para projetos que requerem interatividade sem a complexidade de framework modernos, ou para manutenção de sistemas legados.
+-------------------------------------------------------------------------------------------------------------//-------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div style="text-align: center; background-color: rgb(130, 133, 138);">
+
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Manteiga</h1>
+    <img src="https://lojaqui.com.br/images/produtos/site/59108.jpg" width="200" height="200">
+    <br>
+    <button id="botaoManteiga">Saiba Mais!</button>
+    <br>
+    <p id="mensagemManteigaAviso"></p>
+    <br>
+    <button id="botaoManteigaOcultar"></button>
+    <script>
+        // codigo JQUERY
+            //exibir
+            $(document).ready(function() {
+            $("#botaoManteiga").click(function(){
+                $("#mensagemManteigaAviso").text("Essa manteiga é perfeita para seu café da manhã, sua receita garante saúde e felicidade para toda família.");
+                $("#botaoManteigaOcultar").text("Ocultar?");
+            })
+        })
+
+        //Ocultar
+         $(document).ready(function() {
+            $("#botaoManteigaOcultar").click(function(){
+                $("#mensagemManteigaAviso").text("");
+                 $("#botaoManteigaOcultar").text("");
+            })
+        })
+
+        
+    </script>
+ 
+    </div>
+
+    <div style="text-align: center; background-color: rgb(130, 133, 138);">
+
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Palmito</h1>
+    <img src="https://cdn.awsli.com.br/1571/1571225/produto/85919270/palmito_tolete-miet4gdlin.jpg" width="200" height="200">
+    <br>
+    <button id="botaoPalmito">Saiba Mais!</button>
+    <br>
+    <p id="mensagemPalmitoAviso"></p>
+    <br>
+    <button id="botaoPalmitoOcultar"></button>
+    <script>
+        // codigo JQUERY
+            //Exibir
+        $(document).ready(function() {
+            $("#botaoPalmito").click(function(){
+                $("#mensagemPalmitoAviso").text("Essa palmito é uma delicia principalmente na metade, quando é só pal.");
+                $("#botaoPalmitoOcultar").text("Ocultar?");
+            })
+        })
+        //Ocultar
+        $(document).ready(function() {
+            $("#botaoPalmitoOcultar").click(function(){
+                $("#mensagemPalmitoAviso").text("");
+                $("#botaoPalmitoOcultar").text("");
+            })
+        })
+
+
+
+    </script>
+
+    </div>
+
+</body>
+</html>
+___________________________________________________________________________________________________________________________________________________________________________________________________________
