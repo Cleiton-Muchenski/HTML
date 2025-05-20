@@ -90,3 +90,17 @@ JQuery é uma biblioteca JavaScript leve, Rápida e rica em funcionabilidade, cr
 </body>
 </html>
 ___________________________________________________________________________________________________________________________________________________________________________________________________________
+MVC - Model-View- Controller
+Algumas vantagens:
+* Baixo acoplamento e alta coesão entre componentes
+* Reaproveitamento de código
+* Separação de responsabilidade
+* Facilita a divisão da equipa/tarefa
+* Facilita na manutenção da aplicação
+* Escalabilidade
+
+MVP - Model-View-Presenter
+
+MVVM - Model-View-ViewModel
+MPA - Multiple Pages
+SPA - Single Page Application
